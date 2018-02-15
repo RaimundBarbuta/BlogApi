@@ -46,10 +46,10 @@ router.post('/', function(req, res, next) {
   });
   users.save(function(err){
     if(err){
-      res.send('User Created!');
+      res.send('NOOOOOO');
       console.log(err);
     }else{
-      res.send('UOKE!');
+      res.send('User Created!');
     }
   });
 });
