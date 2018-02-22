@@ -5,7 +5,7 @@ var uuidv4 = require('uuid/v4');
 
 // define and setup Mongoose
 // connect to the db
-mongoose.connect('mongodb://cubu:mancarica@ds235388.mlab.com:35388/blogbd')
+mongoose.connect('mongodb://****:*********@ds235388.mlab.com:35388/blogbd')
 // create a schema for the
 var Schema = mongoose.Schema;
 
